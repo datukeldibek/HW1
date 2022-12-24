@@ -32,15 +32,18 @@ for i in carArray{
 //Также создать функцию добавления продукта в магазин и отображения товаров в магазине
 
 print("2")
-var product1 = Product(name: "apple", price: 120, pr: "farm")
-var product2 = Product(name: "banana", price: 120, pr: "farm")
+var product1 = Product(name: "apple", price: 120, pr: "farm", amount: 2)
+var product2 = Product(name: "banana", price: 120, pr: "farm", amount: 3)
+var product3 = Product(name: "banana", price: 120, pr: "farm2", amount: 1)
 
 
 var productArray = [Product]()
 var shop = Shop(shopName: "globus", products: productArray)
 shop.adding(product1)
 shop.adding(product2)
+shop.adding(product3)
 //dump(shop)
+
 shop.showInfo()
 
 //output:

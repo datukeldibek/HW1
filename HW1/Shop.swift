@@ -16,7 +16,17 @@ class Shop{
     }
     
     func adding(_ element: Product){
-        products.append(element)
+        var flag: Bool = false
+        for item in products{
+            if item.name == element.name{
+                item.amount += element.amount
+                flag = true
+            }
+        }
+        if flag == false{
+            products.append(element)
+        }
+        
     }
     func showInfo(){
         for i in products{

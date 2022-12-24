@@ -10,13 +10,15 @@ class Product{
     var name: String
     var price: Int
     var pr: String
+    var amount: Int
     
-    init(name: String, price: Int, pr: String) {
+    init(name: String, price: Int, pr: String, amount: Int) {
         self.name = name
         self.price = price
         self.pr = pr
+        self.amount = amount
     }
     func out(){
-        print("\(name) \(price) \(pr)")
+        print("\(name) \(price) \(pr) \(amount)")
     }
 }
