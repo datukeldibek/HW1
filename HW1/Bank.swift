@@ -18,9 +18,9 @@ class Bank{
     func clientsNum(){
         print("Количество клиентов банка = \(clients.count)")
     }
-    func balanceDisplay(_ id: Int){
+    func balanceDisplay(_ id: Int, _ lastName: String){
         for client in clients{
-            if client.ID == id{
+            if client.ID == id && client.lastName == lastName{
                 print("на счету у \(client.name) \(client.balance)$")
             }
         }

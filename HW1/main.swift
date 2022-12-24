@@ -64,11 +64,11 @@ var clientArray: [Client] = [client1, client2]
 
 var bank = Bank(bankName: "Demir", clients: clientArray)
 bank.clientsNum()
-bank.balanceDisplay(9011999)
-
+bank.balanceDisplay(9011999, "last name")
+ 
 client1.makeTransaction(toClient: client2, quantity: 1000)
-bank.balanceDisplay(9011999)
-
+bank.balanceDisplay(9011999, "last name")
+ 
 //Количество клиентов банка = 2
 //на счету у B 200$
 //на счету у B 1200$
