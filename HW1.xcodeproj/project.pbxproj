@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0D96627A2956BC310070E61B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9662792956BC310070E61B /* main.swift */; };
+		0D9662822956BC760070E61B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9662812956BC760070E61B /* Car.swift */; };
+		0D9662852956BDCD0070E61B /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9662842956BDCD0070E61B /* Shop.swift */; };
+		0D9662882956BDEA0070E61B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9662872956BDEA0070E61B /* Product.swift */; };
+		0D96628B2956C7110070E61B /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96628A2956C7110070E61B /* Bank.swift */; };
+		0D96628E2956C72B0070E61B /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96628D2956C72B0070E61B /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		0D9662762956BC310070E61B /* HW1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9662792956BC310070E61B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0D9662812956BC760070E61B /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		0D9662842956BDCD0070E61B /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		0D9662872956BDEA0070E61B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0D96628A2956C7110070E61B /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		0D96628D2956C72B0070E61B /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				0D9662792956BC310070E61B /* main.swift */,
+				0D9662812956BC760070E61B /* Car.swift */,
+				0D9662842956BDCD0070E61B /* Shop.swift */,
+				0D9662872956BDEA0070E61B /* Product.swift */,
+				0D96628A2956C7110070E61B /* Bank.swift */,
+				0D96628D2956C72B0070E61B /* Client.swift */,
 			);
 			path = HW1;
 			sourceTree = "<group>";
@@ -119,6 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9662852956BDCD0070E61B /* Shop.swift in Sources */,
+				0D9662882956BDEA0070E61B /* Product.swift in Sources */,
+				0D96628E2956C72B0070E61B /* Client.swift in Sources */,
+				0D96628B2956C7110070E61B /* Bank.swift in Sources */,
+				0D9662822956BC760070E61B /* Car.swift in Sources */,
 				0D96627A2956BC310070E61B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
